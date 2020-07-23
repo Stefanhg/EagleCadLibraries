@@ -140,7 +140,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071R1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071R1L" prefix="R">
 <description>Resistor 0603 1.1R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -166,7 +167,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071R2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071R2L" prefix="R">
 <description>Resistor 0603 1.2R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -192,7 +194,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071R3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071R3L" prefix="R">
 <description>Resistor 0603 1.3R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -218,7 +221,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071R5L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071R5L" prefix="R">
 <description>Resistor 0603 1.5R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -244,7 +248,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071R6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071R6L" prefix="R">
 <description>Resistor 0603 1.6R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -270,7 +275,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071R8L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071R8L" prefix="R">
 <description>Resistor 0603 1.8R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -296,7 +302,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072RL" prefix="R">
 <description>Resistor 0603 2R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -322,7 +329,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072R2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072R2L" prefix="R">
 <description>Resistor 0603 2.2R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -348,7 +356,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072R4L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072R4L" prefix="R">
 <description>Resistor 0603 2.4R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -374,7 +383,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072R7L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072R7L" prefix="R">
 <description>Resistor 0603 2.7R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -400,7 +410,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073RL" prefix="R">
 <description>Resistor 0603 3R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -426,7 +437,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073R3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073R3L" prefix="R">
 <description>Resistor 0603 3.3R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -452,7 +464,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073R6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073R6L" prefix="R">
 <description>Resistor 0603 3.6R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -478,7 +491,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073R9L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073R9L" prefix="R">
 <description>Resistor 0603 3.9R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -504,7 +518,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-074R3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-074R3L" prefix="R">
 <description>Resistor 0603 4.3R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -530,7 +545,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-074R7L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-074R7L" prefix="R">
 <description>Resistor 0603 4.7R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -556,7 +572,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-075R1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-075R1L" prefix="R">
 <description>Resistor 0603 5.1R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -582,7 +599,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-075R6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-075R6L" prefix="R">
 <description>Resistor 0603 5.6R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -608,7 +626,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-076R2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-076R2L" prefix="R">
 <description>Resistor 0603 6.2R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -634,7 +653,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-076R8L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-076R8L" prefix="R">
 <description>Resistor 0603 6.8R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -660,7 +680,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-077R5L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-077R5L" prefix="R">
 <description>Resistor 0603 7.5R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -686,7 +707,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-078R2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-078R2L" prefix="R">
 <description>Resistor 0603 8.2R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -712,7 +734,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-079R1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-079R1L" prefix="R">
 <description>Resistor 0603 9.1R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -738,7 +761,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0710RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0710RL" prefix="R">
 <description>Resistor 0603 10R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -764,7 +788,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0711RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0711RL" prefix="R">
 <description>Resistor 0603 11R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -790,7 +815,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0712RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0712RL" prefix="R">
 <description>Resistor 0603 12R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -816,7 +842,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0713RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0713RL" prefix="R">
 <description>Resistor 0603 13R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -842,7 +869,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0715RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0715RL" prefix="R">
 <description>Resistor 0603 15R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -868,7 +896,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0716RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0716RL" prefix="R">
 <description>Resistor 0603 16R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -894,7 +923,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0718RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0718RL" prefix="R">
 <description>Resistor 0603 18R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -920,7 +950,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0720RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0720RL" prefix="R">
 <description>Resistor 0603 20R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -946,7 +977,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0722RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0722RL" prefix="R">
 <description>Resistor 0603 22R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -972,7 +1004,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0724RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0724RL" prefix="R">
 <description>Resistor 0603 24R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -998,7 +1031,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0727RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0727RL" prefix="R">
 <description>Resistor 0603 27R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1024,7 +1058,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0730RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0730RL" prefix="R">
 <description>Resistor 0603 30R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1050,7 +1085,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0733RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0733RL" prefix="R">
 <description>Resistor 0603 33R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1076,7 +1112,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0736RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0736RL" prefix="R">
 <description>Resistor 0603 36R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1102,7 +1139,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0739RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0739RL" prefix="R">
 <description>Resistor 0603 39R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1128,7 +1166,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0743RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0743RL" prefix="R">
 <description>Resistor 0603 43R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1154,7 +1193,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0747RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0747RL" prefix="R">
 <description>Resistor 0603 47R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1180,7 +1220,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0751RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0751RL" prefix="R">
 <description>Resistor 0603 51R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1206,7 +1247,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0756RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0756RL" prefix="R">
 <description>Resistor 0603 56R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1232,7 +1274,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0762RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0762RL" prefix="R">
 <description>Resistor 0603 62R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1258,7 +1301,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0768RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0768RL" prefix="R">
 <description>Resistor 0603 68R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1284,7 +1328,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0775RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0775RL" prefix="R">
 <description>Resistor 0603 75R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1310,7 +1355,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0782RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0782RL" prefix="R">
 <description>Resistor 0603 82R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1336,7 +1382,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0791RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0791RL" prefix="R">
 <description>Resistor 0603 91R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1362,7 +1409,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07100RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07100RL" prefix="R">
 <description>Resistor 0603 100R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1388,7 +1436,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07110RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07110RL" prefix="R">
 <description>Resistor 0603 110R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1414,7 +1463,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07120RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07120RL" prefix="R">
 <description>Resistor 0603 120R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1440,7 +1490,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07130RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07130RL" prefix="R">
 <description>Resistor 0603 130R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1466,7 +1517,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07150RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07150RL" prefix="R">
 <description>Resistor 0603 150R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1492,7 +1544,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07160RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07160RL" prefix="R">
 <description>Resistor 0603 160R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1518,7 +1571,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07180RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07180RL" prefix="R">
 <description>Resistor 0603 180R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1544,7 +1598,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07200RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07200RL" prefix="R">
 <description>Resistor 0603 200R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1570,7 +1625,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07220RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07220RL" prefix="R">
 <description>Resistor 0603 220R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1596,7 +1652,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07240RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07240RL" prefix="R">
 <description>Resistor 0603 240R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1622,7 +1679,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07270RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07270RL" prefix="R">
 <description>Resistor 0603 270R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1648,7 +1706,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07300RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07300RL" prefix="R">
 <description>Resistor 0603 300R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1674,7 +1733,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07330RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07330RL" prefix="R">
 <description>Resistor 0603 330R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1700,7 +1760,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07360RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07360RL" prefix="R">
 <description>Resistor 0603 360R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1726,7 +1787,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07390RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07390RL" prefix="R">
 <description>Resistor 0603 390R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1752,7 +1814,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07430RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07430RL" prefix="R">
 <description>Resistor 0603 430R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1778,7 +1841,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07470RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07470RL" prefix="R">
 <description>Resistor 0603 470R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1804,7 +1868,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07510RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07510RL" prefix="R">
 <description>Resistor 0603 510R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1830,7 +1895,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07560RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07560RL" prefix="R">
 <description>Resistor 0603 560R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1856,7 +1922,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07620RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07620RL" prefix="R">
 <description>Resistor 0603 620R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1882,7 +1949,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07680RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07680RL" prefix="R">
 <description>Resistor 0603 680R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1908,7 +1976,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07750RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07750RL" prefix="R">
 <description>Resistor 0603 750R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1934,7 +2003,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07820RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07820RL" prefix="R">
 <description>Resistor 0603 820R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1960,7 +2030,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07910RL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07910RL" prefix="R">
 <description>Resistor 0603 910R 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -1986,7 +2057,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071KL" prefix="R">
 <description>Resistor 0603 1K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2012,7 +2084,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071K1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071K1L" prefix="R">
 <description>Resistor 0603 1.1K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2038,7 +2111,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071K2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071K2L" prefix="R">
 <description>Resistor 0603 1.2K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2064,7 +2138,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071K3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071K3L" prefix="R">
 <description>Resistor 0603 1.3K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2090,7 +2165,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071K5L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071K5L" prefix="R">
 <description>Resistor 0603 1.5K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2116,7 +2192,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071K6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071K6L" prefix="R">
 <description>Resistor 0603 1.6K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2142,7 +2219,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071K8L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071K8L" prefix="R">
 <description>Resistor 0603 1.8K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2168,7 +2246,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072KL" prefix="R">
 <description>Resistor 0603 2K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2194,7 +2273,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072K2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072K2L" prefix="R">
 <description>Resistor 0603 2.2K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2220,7 +2300,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072K4L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072K4L" prefix="R">
 <description>Resistor 0603 2.4K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2246,7 +2327,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072K7L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072K7L" prefix="R">
 <description>Resistor 0603 2.7K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2272,7 +2354,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073KL" prefix="R">
 <description>Resistor 0603 3K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2298,7 +2381,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073K3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073K3L" prefix="R">
 <description>Resistor 0603 3.3K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2324,7 +2408,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073K6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073K6L" prefix="R">
 <description>Resistor 0603 3.6K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2350,7 +2435,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073K9L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073K9L" prefix="R">
 <description>Resistor 0603 3.9K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2376,7 +2462,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-074K3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-074K3L" prefix="R">
 <description>Resistor 0603 4.3K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2402,7 +2489,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-074K7L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-074K7L" prefix="R">
 <description>Resistor 0603 4.7K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2428,7 +2516,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-075K1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-075K1L" prefix="R">
 <description>Resistor 0603 5.1K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2454,7 +2543,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-075K6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-075K6L" prefix="R">
 <description>Resistor 0603 5.6K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2480,7 +2570,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-076K2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-076K2L" prefix="R">
 <description>Resistor 0603 6.2K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2506,7 +2597,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-076K8L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-076K8L" prefix="R">
 <description>Resistor 0603 6.8K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2532,7 +2624,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-077K5L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-077K5L" prefix="R">
 <description>Resistor 0603 7.5K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2558,7 +2651,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-078K2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-078K2L" prefix="R">
 <description>Resistor 0603 8.2K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2584,7 +2678,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-079K1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-079K1L" prefix="R">
 <description>Resistor 0603 9.1K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2610,7 +2705,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0710KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0710KL" prefix="R">
 <description>Resistor 0603 10K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2636,7 +2732,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0711KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0711KL" prefix="R">
 <description>Resistor 0603 11K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2662,7 +2759,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0712KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0712KL" prefix="R">
 <description>Resistor 0603 12K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2688,7 +2786,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0713KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0713KL" prefix="R">
 <description>Resistor 0603 13K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2714,7 +2813,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0715KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0715KL" prefix="R">
 <description>Resistor 0603 15K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2740,7 +2840,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0716KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0716KL" prefix="R">
 <description>Resistor 0603 16K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2766,7 +2867,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0718KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0718KL" prefix="R">
 <description>Resistor 0603 18K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2792,7 +2894,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0720KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0720KL" prefix="R">
 <description>Resistor 0603 20K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2818,7 +2921,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0722KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0722KL" prefix="R">
 <description>Resistor 0603 22K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2844,7 +2948,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0724KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0724KL" prefix="R">
 <description>Resistor 0603 24K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2870,7 +2975,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0727KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0727KL" prefix="R">
 <description>Resistor 0603 27K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2896,7 +3002,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0730KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0730KL" prefix="R">
 <description>Resistor 0603 30K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2922,7 +3029,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0733KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0733KL" prefix="R">
 <description>Resistor 0603 33K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2948,7 +3056,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0736KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0736KL" prefix="R">
 <description>Resistor 0603 36K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -2974,7 +3083,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0739KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0739KL" prefix="R">
 <description>Resistor 0603 39K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3000,7 +3110,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0743KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0743KL" prefix="R">
 <description>Resistor 0603 43K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3026,7 +3137,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0747KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0747KL" prefix="R">
 <description>Resistor 0603 47K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3052,7 +3164,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0751KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0751KL" prefix="R">
 <description>Resistor 0603 51K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3078,7 +3191,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0756KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0756KL" prefix="R">
 <description>Resistor 0603 56K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3104,7 +3218,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0762KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0762KL" prefix="R">
 <description>Resistor 0603 62K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3130,7 +3245,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0768KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0768KL" prefix="R">
 <description>Resistor 0603 68K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3156,7 +3272,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0775KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0775KL" prefix="R">
 <description>Resistor 0603 75K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3182,7 +3299,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0782KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0782KL" prefix="R">
 <description>Resistor 0603 82K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3208,7 +3326,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0791KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0791KL" prefix="R">
 <description>Resistor 0603 91K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3234,7 +3353,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07100KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07100KL" prefix="R">
 <description>Resistor 0603 100K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3260,7 +3380,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07110KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07110KL" prefix="R">
 <description>Resistor 0603 110K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3286,7 +3407,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07120KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07120KL" prefix="R">
 <description>Resistor 0603 120K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3312,7 +3434,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07130KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07130KL" prefix="R">
 <description>Resistor 0603 130K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3338,7 +3461,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07150KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07150KL" prefix="R">
 <description>Resistor 0603 150K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3364,7 +3488,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07160KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07160KL" prefix="R">
 <description>Resistor 0603 160K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3390,7 +3515,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07180KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07180KL" prefix="R">
 <description>Resistor 0603 180K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3416,7 +3542,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07200KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07200KL" prefix="R">
 <description>Resistor 0603 200K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3442,7 +3569,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07220KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07220KL" prefix="R">
 <description>Resistor 0603 220K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3468,7 +3596,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07240KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07240KL" prefix="R">
 <description>Resistor 0603 240K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3494,7 +3623,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07270KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07270KL" prefix="R">
 <description>Resistor 0603 270K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3520,7 +3650,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07300KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07300KL" prefix="R">
 <description>Resistor 0603 300K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3546,7 +3677,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07330KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07330KL" prefix="R">
 <description>Resistor 0603 330K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3572,7 +3704,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07360KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07360KL" prefix="R">
 <description>Resistor 0603 360K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3598,7 +3731,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07390KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07390KL" prefix="R">
 <description>Resistor 0603 390K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3624,7 +3758,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07430KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07430KL" prefix="R">
 <description>Resistor 0603 430K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3650,7 +3785,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07470KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07470KL" prefix="R">
 <description>Resistor 0603 470K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3676,7 +3812,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07510KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07510KL" prefix="R">
 <description>Resistor 0603 510K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3702,7 +3839,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07560KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07560KL" prefix="R">
 <description>Resistor 0603 560K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3728,7 +3866,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07620KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07620KL" prefix="R">
 <description>Resistor 0603 620K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3754,7 +3893,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07680KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07680KL" prefix="R">
 <description>Resistor 0603 680K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3780,7 +3920,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07750KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07750KL" prefix="R">
 <description>Resistor 0603 750K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3806,7 +3947,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07820KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07820KL" prefix="R">
 <description>Resistor 0603 820K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3832,7 +3974,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-07910KL" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-07910KL" prefix="R">
 <description>Resistor 0603 910K 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3858,7 +4001,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071ML" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071ML" prefix="R">
 <description>Resistor 0603 1M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3884,7 +4028,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071M1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071M1L" prefix="R">
 <description>Resistor 0603 1.1M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3910,7 +4055,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071M2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071M2L" prefix="R">
 <description>Resistor 0603 1.2M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3936,7 +4082,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071M3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071M3L" prefix="R">
 <description>Resistor 0603 1.3M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3962,7 +4109,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071M5L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071M5L" prefix="R">
 <description>Resistor 0603 1.5M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -3988,7 +4136,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071M6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071M6L" prefix="R">
 <description>Resistor 0603 1.6M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4014,7 +4163,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-071M8L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-071M8L" prefix="R">
 <description>Resistor 0603 1.8M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4040,7 +4190,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072ML" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072ML" prefix="R">
 <description>Resistor 0603 2M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4066,7 +4217,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072M2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072M2L" prefix="R">
 <description>Resistor 0603 2.2M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4092,7 +4244,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072M4L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072M4L" prefix="R">
 <description>Resistor 0603 2.4M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4118,7 +4271,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-072M7L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-072M7L" prefix="R">
 <description>Resistor 0603 2.7M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4144,7 +4298,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073ML" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073ML" prefix="R">
 <description>Resistor 0603 3M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4170,7 +4325,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073M3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073M3L" prefix="R">
 <description>Resistor 0603 3.3M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4196,7 +4352,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073M6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073M6L" prefix="R">
 <description>Resistor 0603 3.6M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4222,7 +4379,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-073M9L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-073M9L" prefix="R">
 <description>Resistor 0603 3.9M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4248,7 +4406,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-074ML" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-074ML" prefix="R">
 <description>Resistor 0603 4M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4274,7 +4433,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-074M3L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-074M3L" prefix="R">
 <description>Resistor 0603 4.3M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4300,7 +4460,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-074M7L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-074M7L" prefix="R">
 <description>Resistor 0603 4.7M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4326,7 +4487,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-075M1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-075M1L" prefix="R">
 <description>Resistor 0603 5.1M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4352,7 +4514,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-075M6L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-075M6L" prefix="R">
 <description>Resistor 0603 5.6M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4378,7 +4541,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-076M2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-076M2L" prefix="R">
 <description>Resistor 0603 6.2M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4404,7 +4568,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-076M8L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-076M8L" prefix="R">
 <description>Resistor 0603 6.8M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4430,7 +4595,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-077M5L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-077M5L" prefix="R">
 <description>Resistor 0603 7.5M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4456,7 +4622,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-078M2L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-078M2L" prefix="R">
 <description>Resistor 0603 8.2M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4482,7 +4649,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-079M1L" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-079M1L" prefix="R">
 <description>Resistor 0603 9.1M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
@@ -4508,7 +4676,8 @@
 </technologies>
 </device>
 </devices>
-</deviceset><deviceset name="RC0603FR-0710ML" prefix="R">
+</deviceset>
+<deviceset name="RC0603FR-0710ML" prefix="R">
 <description>Resistor 0603 10M 1% 100 mW (1/10 W) 75V</description>
 <gates>
 <gate name="G$1" symbol="RESH" x="0" y="0"/>
