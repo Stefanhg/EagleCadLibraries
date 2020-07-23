@@ -1,0 +1,4553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE eagle SYSTEM "eagle.dtd">
+<eagle version="9.5.2">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="17" fill="1" visible="no" active="yes"/>
+<layer number="4" name="Route4" color="18" fill="1" visible="no" active="yes"/>
+<layer number="5" name="Route5" color="19" fill="1" visible="no" active="yes"/>
+<layer number="6" name="Route6" color="25" fill="1" visible="no" active="yes"/>
+<layer number="7" name="Route7" color="26" fill="1" visible="no" active="yes"/>
+<layer number="8" name="Route8" color="27" fill="1" visible="no" active="yes"/>
+<layer number="9" name="Route9" color="28" fill="1" visible="no" active="yes"/>
+<layer number="10" name="Route10" color="29" fill="1" visible="no" active="yes"/>
+<layer number="11" name="Route11" color="30" fill="1" visible="no" active="yes"/>
+<layer number="12" name="Route12" color="20" fill="1" visible="no" active="yes"/>
+<layer number="13" name="Route13" color="21" fill="1" visible="no" active="yes"/>
+<layer number="14" name="Route14" color="22" fill="1" visible="no" active="yes"/>
+<layer number="15" name="Route15" color="23" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="RESC1608X60N" urn="urn:adsk.eagle:footprint:13180348/1" locally_modified="yes">
+<smd name="1" x="-0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
+<smd name="2" x="0.8382" y="0" dx="0.762" dy="0.9398" layer="1"/>
+<wire x1="-0.127" y1="-0.4826" x2="0.127" y2="-0.4826" width="0.1524" layer="21"/>
+<wire x1="0.127" y1="0.4826" x2="-0.127" y2="0.4826" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="-0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.4572" y1="0.4826" x2="-0.8382" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.8382" y1="-0.4826" x2="-0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="-0.4826" x2="0.8382" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.8382" y1="0.4826" x2="0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.4572" y1="-0.4826" x2="0.4572" y2="-0.4826" width="0" layer="51"/>
+<wire x1="0.8382" y1="-0.4826" x2="0.8382" y2="0.4826" width="0" layer="51"/>
+<wire x1="0.4572" y1="0.4826" x2="-0.4572" y2="0.4826" width="0" layer="51"/>
+<wire x1="-0.8382" y1="0.4826" x2="-0.8382" y2="-0.4826" width="0" layer="51"/>
+<text x="-0.9144" y="1.27" size="0.8128" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-0.9144" y="-1.905" size="0.8128" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="RESC1608X60N" urn="urn:adsk.eagle:package:14571367/2" type="model">
+<description>Chip, 1.60 X 0.80 X 0.55 mm body
+&lt;p&gt;Chip package with body size 1.60 X 0.80 X 0.55 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="RESC1608X60N"/>
+</packageinstances>
+</package3d>
+</packages3d>
+<symbols>
+<symbol name="RESH">
+<pin name="R2" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="R1" x="5.08" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<text x="-2.54" y="-3.302" size="1.9304" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-2.54" y="1.397" size="1.9304" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<wire x1="-2.54" y1="-0.889" x2="2.54" y2="-0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-0.889" x2="2.54" y2="0.889" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-0.889" x2="-2.54" y2="0.889" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RC0603FR-071RL" prefix="R">
+<description>Resistor 0603 1R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071RL"/>
+<attribute name="MPN" value="RC0603FR-071RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071R1L" prefix="R">
+<description>Resistor 0603 1.1R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071R1L"/>
+<attribute name="MPN" value="RC0603FR-071R1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.1R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071R2L" prefix="R">
+<description>Resistor 0603 1.2R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071R2L"/>
+<attribute name="MPN" value="RC0603FR-071R2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.2R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071R3L" prefix="R">
+<description>Resistor 0603 1.3R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071R3L"/>
+<attribute name="MPN" value="RC0603FR-071R3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.3R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071R5L" prefix="R">
+<description>Resistor 0603 1.5R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071R5L"/>
+<attribute name="MPN" value="RC0603FR-071R5L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.5R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071R6L" prefix="R">
+<description>Resistor 0603 1.6R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071R6L"/>
+<attribute name="MPN" value="RC0603FR-071R6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.6R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071R8L" prefix="R">
+<description>Resistor 0603 1.8R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071R8L"/>
+<attribute name="MPN" value="RC0603FR-071R8L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.8R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072RL" prefix="R">
+<description>Resistor 0603 2R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072RL"/>
+<attribute name="MPN" value="RC0603FR-072RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072R2L" prefix="R">
+<description>Resistor 0603 2.2R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072R2L"/>
+<attribute name="MPN" value="RC0603FR-072R2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.2R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072R4L" prefix="R">
+<description>Resistor 0603 2.4R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072R4L"/>
+<attribute name="MPN" value="RC0603FR-072R4L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.4R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072R7L" prefix="R">
+<description>Resistor 0603 2.7R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072R7L"/>
+<attribute name="MPN" value="RC0603FR-072R7L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.7R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073RL" prefix="R">
+<description>Resistor 0603 3R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073RL"/>
+<attribute name="MPN" value="RC0603FR-073RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073R3L" prefix="R">
+<description>Resistor 0603 3.3R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073R3L"/>
+<attribute name="MPN" value="RC0603FR-073R3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.3R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073R6L" prefix="R">
+<description>Resistor 0603 3.6R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073R6L"/>
+<attribute name="MPN" value="RC0603FR-073R6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.6R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073R9L" prefix="R">
+<description>Resistor 0603 3.9R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073R9L"/>
+<attribute name="MPN" value="RC0603FR-073R9L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.9R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-074R3L" prefix="R">
+<description>Resistor 0603 4.3R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-074R3L"/>
+<attribute name="MPN" value="RC0603FR-074R3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.3R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-074R7L" prefix="R">
+<description>Resistor 0603 4.7R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-074R7L"/>
+<attribute name="MPN" value="RC0603FR-074R7L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.7R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-075R1L" prefix="R">
+<description>Resistor 0603 5.1R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-075R1L"/>
+<attribute name="MPN" value="RC0603FR-075R1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="5.1R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-075R6L" prefix="R">
+<description>Resistor 0603 5.6R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-075R6L"/>
+<attribute name="MPN" value="RC0603FR-075R6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="5.6R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-076R2L" prefix="R">
+<description>Resistor 0603 6.2R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-076R2L"/>
+<attribute name="MPN" value="RC0603FR-076R2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="6.2R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-076R8L" prefix="R">
+<description>Resistor 0603 6.8R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-076R8L"/>
+<attribute name="MPN" value="RC0603FR-076R8L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="6.8R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-077R5L" prefix="R">
+<description>Resistor 0603 7.5R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-077R5L"/>
+<attribute name="MPN" value="RC0603FR-077R5L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="7.5R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-078R2L" prefix="R">
+<description>Resistor 0603 8.2R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-078R2L"/>
+<attribute name="MPN" value="RC0603FR-078R2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="8.2R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-079R1L" prefix="R">
+<description>Resistor 0603 9.1R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-079R1L"/>
+<attribute name="MPN" value="RC0603FR-079R1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="9.1R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0710RL" prefix="R">
+<description>Resistor 0603 10R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0710RL"/>
+<attribute name="MPN" value="RC0603FR-0710RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="10R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0711RL" prefix="R">
+<description>Resistor 0603 11R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0711RL"/>
+<attribute name="MPN" value="RC0603FR-0711RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="11R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0712RL" prefix="R">
+<description>Resistor 0603 12R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0712RL"/>
+<attribute name="MPN" value="RC0603FR-0712RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="12R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0713RL" prefix="R">
+<description>Resistor 0603 13R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0713RL"/>
+<attribute name="MPN" value="RC0603FR-0713RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="13R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0715RL" prefix="R">
+<description>Resistor 0603 15R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0715RL"/>
+<attribute name="MPN" value="RC0603FR-0715RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="15R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0716RL" prefix="R">
+<description>Resistor 0603 16R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0716RL"/>
+<attribute name="MPN" value="RC0603FR-0716RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="16R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0718RL" prefix="R">
+<description>Resistor 0603 18R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0718RL"/>
+<attribute name="MPN" value="RC0603FR-0718RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="18R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0720RL" prefix="R">
+<description>Resistor 0603 20R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0720RL"/>
+<attribute name="MPN" value="RC0603FR-0720RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="20R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0722RL" prefix="R">
+<description>Resistor 0603 22R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0722RL"/>
+<attribute name="MPN" value="RC0603FR-0722RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="22R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0724RL" prefix="R">
+<description>Resistor 0603 24R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0724RL"/>
+<attribute name="MPN" value="RC0603FR-0724RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="24R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0727RL" prefix="R">
+<description>Resistor 0603 27R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0727RL"/>
+<attribute name="MPN" value="RC0603FR-0727RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="27R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0730RL" prefix="R">
+<description>Resistor 0603 30R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0730RL"/>
+<attribute name="MPN" value="RC0603FR-0730RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="30R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0733RL" prefix="R">
+<description>Resistor 0603 33R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0733RL"/>
+<attribute name="MPN" value="RC0603FR-0733RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="33R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0736RL" prefix="R">
+<description>Resistor 0603 36R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0736RL"/>
+<attribute name="MPN" value="RC0603FR-0736RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="36R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0739RL" prefix="R">
+<description>Resistor 0603 39R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0739RL"/>
+<attribute name="MPN" value="RC0603FR-0739RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="39R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0743RL" prefix="R">
+<description>Resistor 0603 43R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0743RL"/>
+<attribute name="MPN" value="RC0603FR-0743RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="43R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0747RL" prefix="R">
+<description>Resistor 0603 47R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0747RL"/>
+<attribute name="MPN" value="RC0603FR-0747RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="47R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0751RL" prefix="R">
+<description>Resistor 0603 51R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0751RL"/>
+<attribute name="MPN" value="RC0603FR-0751RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="51R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0756RL" prefix="R">
+<description>Resistor 0603 56R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0756RL"/>
+<attribute name="MPN" value="RC0603FR-0756RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="56R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0762RL" prefix="R">
+<description>Resistor 0603 62R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0762RL"/>
+<attribute name="MPN" value="RC0603FR-0762RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="62R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0768RL" prefix="R">
+<description>Resistor 0603 68R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0768RL"/>
+<attribute name="MPN" value="RC0603FR-0768RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="68R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0775RL" prefix="R">
+<description>Resistor 0603 75R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0775RL"/>
+<attribute name="MPN" value="RC0603FR-0775RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="75R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0782RL" prefix="R">
+<description>Resistor 0603 82R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0782RL"/>
+<attribute name="MPN" value="RC0603FR-0782RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="82R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0791RL" prefix="R">
+<description>Resistor 0603 91R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0791RL"/>
+<attribute name="MPN" value="RC0603FR-0791RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="91R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07100RL" prefix="R">
+<description>Resistor 0603 100R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07100RL"/>
+<attribute name="MPN" value="RC0603FR-07100RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="100R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07110RL" prefix="R">
+<description>Resistor 0603 110R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07110RL"/>
+<attribute name="MPN" value="RC0603FR-07110RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="110R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07120RL" prefix="R">
+<description>Resistor 0603 120R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07120RL"/>
+<attribute name="MPN" value="RC0603FR-07120RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="120R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07130RL" prefix="R">
+<description>Resistor 0603 130R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07130RL"/>
+<attribute name="MPN" value="RC0603FR-07130RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="130R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07150RL" prefix="R">
+<description>Resistor 0603 150R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07150RL"/>
+<attribute name="MPN" value="RC0603FR-07150RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="150R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07160RL" prefix="R">
+<description>Resistor 0603 160R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07160RL"/>
+<attribute name="MPN" value="RC0603FR-07160RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="160R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07180RL" prefix="R">
+<description>Resistor 0603 180R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07180RL"/>
+<attribute name="MPN" value="RC0603FR-07180RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="180R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07200RL" prefix="R">
+<description>Resistor 0603 200R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07200RL"/>
+<attribute name="MPN" value="RC0603FR-07200RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="200R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07220RL" prefix="R">
+<description>Resistor 0603 220R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07220RL"/>
+<attribute name="MPN" value="RC0603FR-07220RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="220R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07240RL" prefix="R">
+<description>Resistor 0603 240R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07240RL"/>
+<attribute name="MPN" value="RC0603FR-07240RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="240R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07270RL" prefix="R">
+<description>Resistor 0603 270R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07270RL"/>
+<attribute name="MPN" value="RC0603FR-07270RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="270R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07300RL" prefix="R">
+<description>Resistor 0603 300R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07300RL"/>
+<attribute name="MPN" value="RC0603FR-07300RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="300R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07330RL" prefix="R">
+<description>Resistor 0603 330R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07330RL"/>
+<attribute name="MPN" value="RC0603FR-07330RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="330R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07360RL" prefix="R">
+<description>Resistor 0603 360R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07360RL"/>
+<attribute name="MPN" value="RC0603FR-07360RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="360R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07390RL" prefix="R">
+<description>Resistor 0603 390R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07390RL"/>
+<attribute name="MPN" value="RC0603FR-07390RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="390R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07430RL" prefix="R">
+<description>Resistor 0603 430R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07430RL"/>
+<attribute name="MPN" value="RC0603FR-07430RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="430R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07470RL" prefix="R">
+<description>Resistor 0603 470R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07470RL"/>
+<attribute name="MPN" value="RC0603FR-07470RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="470R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07510RL" prefix="R">
+<description>Resistor 0603 510R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07510RL"/>
+<attribute name="MPN" value="RC0603FR-07510RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="510R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07560RL" prefix="R">
+<description>Resistor 0603 560R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07560RL"/>
+<attribute name="MPN" value="RC0603FR-07560RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="560R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07620RL" prefix="R">
+<description>Resistor 0603 620R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07620RL"/>
+<attribute name="MPN" value="RC0603FR-07620RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="620R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07680RL" prefix="R">
+<description>Resistor 0603 680R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07680RL"/>
+<attribute name="MPN" value="RC0603FR-07680RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="680R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07750RL" prefix="R">
+<description>Resistor 0603 750R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07750RL"/>
+<attribute name="MPN" value="RC0603FR-07750RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="750R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07820RL" prefix="R">
+<description>Resistor 0603 820R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07820RL"/>
+<attribute name="MPN" value="RC0603FR-07820RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="820R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07910RL" prefix="R">
+<description>Resistor 0603 910R 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07910RL"/>
+<attribute name="MPN" value="RC0603FR-07910RL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="910R"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071KL" prefix="R">
+<description>Resistor 0603 1K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071KL"/>
+<attribute name="MPN" value="RC0603FR-071KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071K1L" prefix="R">
+<description>Resistor 0603 1.1K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071K1L"/>
+<attribute name="MPN" value="RC0603FR-071K1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.1K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071K2L" prefix="R">
+<description>Resistor 0603 1.2K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071K2L"/>
+<attribute name="MPN" value="RC0603FR-071K2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.2K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071K3L" prefix="R">
+<description>Resistor 0603 1.3K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071K3L"/>
+<attribute name="MPN" value="RC0603FR-071K3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.3K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071K5L" prefix="R">
+<description>Resistor 0603 1.5K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071K5L"/>
+<attribute name="MPN" value="RC0603FR-071K5L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.5K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071K6L" prefix="R">
+<description>Resistor 0603 1.6K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071K6L"/>
+<attribute name="MPN" value="RC0603FR-071K6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.6K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071K8L" prefix="R">
+<description>Resistor 0603 1.8K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071K8L"/>
+<attribute name="MPN" value="RC0603FR-071K8L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.8K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072KL" prefix="R">
+<description>Resistor 0603 2K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072KL"/>
+<attribute name="MPN" value="RC0603FR-072KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072K2L" prefix="R">
+<description>Resistor 0603 2.2K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072K2L"/>
+<attribute name="MPN" value="RC0603FR-072K2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.2K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072K4L" prefix="R">
+<description>Resistor 0603 2.4K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072K4L"/>
+<attribute name="MPN" value="RC0603FR-072K4L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.4K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072K7L" prefix="R">
+<description>Resistor 0603 2.7K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072K7L"/>
+<attribute name="MPN" value="RC0603FR-072K7L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.7K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073KL" prefix="R">
+<description>Resistor 0603 3K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073KL"/>
+<attribute name="MPN" value="RC0603FR-073KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073K3L" prefix="R">
+<description>Resistor 0603 3.3K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073K3L"/>
+<attribute name="MPN" value="RC0603FR-073K3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.3K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073K6L" prefix="R">
+<description>Resistor 0603 3.6K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073K6L"/>
+<attribute name="MPN" value="RC0603FR-073K6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.6K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073K9L" prefix="R">
+<description>Resistor 0603 3.9K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073K9L"/>
+<attribute name="MPN" value="RC0603FR-073K9L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.9K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-074K3L" prefix="R">
+<description>Resistor 0603 4.3K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-074K3L"/>
+<attribute name="MPN" value="RC0603FR-074K3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.3K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-074K7L" prefix="R">
+<description>Resistor 0603 4.7K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-074K7L"/>
+<attribute name="MPN" value="RC0603FR-074K7L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.7K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-075K1L" prefix="R">
+<description>Resistor 0603 5.1K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-075K1L"/>
+<attribute name="MPN" value="RC0603FR-075K1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="5.1K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-075K6L" prefix="R">
+<description>Resistor 0603 5.6K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-075K6L"/>
+<attribute name="MPN" value="RC0603FR-075K6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="5.6K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-076K2L" prefix="R">
+<description>Resistor 0603 6.2K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-076K2L"/>
+<attribute name="MPN" value="RC0603FR-076K2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="6.2K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-076K8L" prefix="R">
+<description>Resistor 0603 6.8K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-076K8L"/>
+<attribute name="MPN" value="RC0603FR-076K8L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="6.8K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-077K5L" prefix="R">
+<description>Resistor 0603 7.5K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-077K5L"/>
+<attribute name="MPN" value="RC0603FR-077K5L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="7.5K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-078K2L" prefix="R">
+<description>Resistor 0603 8.2K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-078K2L"/>
+<attribute name="MPN" value="RC0603FR-078K2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="8.2K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-079K1L" prefix="R">
+<description>Resistor 0603 9.1K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-079K1L"/>
+<attribute name="MPN" value="RC0603FR-079K1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="9.1K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0710KL" prefix="R">
+<description>Resistor 0603 10K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0710KL"/>
+<attribute name="MPN" value="RC0603FR-0710KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0711KL" prefix="R">
+<description>Resistor 0603 11K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0711KL"/>
+<attribute name="MPN" value="RC0603FR-0711KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="11K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0712KL" prefix="R">
+<description>Resistor 0603 12K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0712KL"/>
+<attribute name="MPN" value="RC0603FR-0712KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="12K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0713KL" prefix="R">
+<description>Resistor 0603 13K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0713KL"/>
+<attribute name="MPN" value="RC0603FR-0713KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="13K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0715KL" prefix="R">
+<description>Resistor 0603 15K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0715KL"/>
+<attribute name="MPN" value="RC0603FR-0715KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="15K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0716KL" prefix="R">
+<description>Resistor 0603 16K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0716KL"/>
+<attribute name="MPN" value="RC0603FR-0716KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="16K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0718KL" prefix="R">
+<description>Resistor 0603 18K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0718KL"/>
+<attribute name="MPN" value="RC0603FR-0718KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="18K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0720KL" prefix="R">
+<description>Resistor 0603 20K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0720KL"/>
+<attribute name="MPN" value="RC0603FR-0720KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="20K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0722KL" prefix="R">
+<description>Resistor 0603 22K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0722KL"/>
+<attribute name="MPN" value="RC0603FR-0722KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="22K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0724KL" prefix="R">
+<description>Resistor 0603 24K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0724KL"/>
+<attribute name="MPN" value="RC0603FR-0724KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="24K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0727KL" prefix="R">
+<description>Resistor 0603 27K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0727KL"/>
+<attribute name="MPN" value="RC0603FR-0727KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="27K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0730KL" prefix="R">
+<description>Resistor 0603 30K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0730KL"/>
+<attribute name="MPN" value="RC0603FR-0730KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="30K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0733KL" prefix="R">
+<description>Resistor 0603 33K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0733KL"/>
+<attribute name="MPN" value="RC0603FR-0733KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="33K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0736KL" prefix="R">
+<description>Resistor 0603 36K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0736KL"/>
+<attribute name="MPN" value="RC0603FR-0736KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="36K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0739KL" prefix="R">
+<description>Resistor 0603 39K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0739KL"/>
+<attribute name="MPN" value="RC0603FR-0739KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="39K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0743KL" prefix="R">
+<description>Resistor 0603 43K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0743KL"/>
+<attribute name="MPN" value="RC0603FR-0743KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="43K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0747KL" prefix="R">
+<description>Resistor 0603 47K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0747KL"/>
+<attribute name="MPN" value="RC0603FR-0747KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="47K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0751KL" prefix="R">
+<description>Resistor 0603 51K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0751KL"/>
+<attribute name="MPN" value="RC0603FR-0751KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="51K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0756KL" prefix="R">
+<description>Resistor 0603 56K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0756KL"/>
+<attribute name="MPN" value="RC0603FR-0756KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="56K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0762KL" prefix="R">
+<description>Resistor 0603 62K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0762KL"/>
+<attribute name="MPN" value="RC0603FR-0762KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="62K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0768KL" prefix="R">
+<description>Resistor 0603 68K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0768KL"/>
+<attribute name="MPN" value="RC0603FR-0768KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="68K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0775KL" prefix="R">
+<description>Resistor 0603 75K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0775KL"/>
+<attribute name="MPN" value="RC0603FR-0775KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="75K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0782KL" prefix="R">
+<description>Resistor 0603 82K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0782KL"/>
+<attribute name="MPN" value="RC0603FR-0782KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="82K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0791KL" prefix="R">
+<description>Resistor 0603 91K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0791KL"/>
+<attribute name="MPN" value="RC0603FR-0791KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="91K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07100KL" prefix="R">
+<description>Resistor 0603 100K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07100KL"/>
+<attribute name="MPN" value="RC0603FR-07100KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="100K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07110KL" prefix="R">
+<description>Resistor 0603 110K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07110KL"/>
+<attribute name="MPN" value="RC0603FR-07110KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="110K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07120KL" prefix="R">
+<description>Resistor 0603 120K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07120KL"/>
+<attribute name="MPN" value="RC0603FR-07120KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="120K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07130KL" prefix="R">
+<description>Resistor 0603 130K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07130KL"/>
+<attribute name="MPN" value="RC0603FR-07130KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="130K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07150KL" prefix="R">
+<description>Resistor 0603 150K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07150KL"/>
+<attribute name="MPN" value="RC0603FR-07150KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="150K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07160KL" prefix="R">
+<description>Resistor 0603 160K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07160KL"/>
+<attribute name="MPN" value="RC0603FR-07160KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="160K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07180KL" prefix="R">
+<description>Resistor 0603 180K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07180KL"/>
+<attribute name="MPN" value="RC0603FR-07180KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="180K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07200KL" prefix="R">
+<description>Resistor 0603 200K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07200KL"/>
+<attribute name="MPN" value="RC0603FR-07200KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="200K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07220KL" prefix="R">
+<description>Resistor 0603 220K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07220KL"/>
+<attribute name="MPN" value="RC0603FR-07220KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="220K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07240KL" prefix="R">
+<description>Resistor 0603 240K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07240KL"/>
+<attribute name="MPN" value="RC0603FR-07240KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="240K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07270KL" prefix="R">
+<description>Resistor 0603 270K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07270KL"/>
+<attribute name="MPN" value="RC0603FR-07270KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="270K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07300KL" prefix="R">
+<description>Resistor 0603 300K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07300KL"/>
+<attribute name="MPN" value="RC0603FR-07300KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="300K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07330KL" prefix="R">
+<description>Resistor 0603 330K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07330KL"/>
+<attribute name="MPN" value="RC0603FR-07330KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="330K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07360KL" prefix="R">
+<description>Resistor 0603 360K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07360KL"/>
+<attribute name="MPN" value="RC0603FR-07360KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="360K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07390KL" prefix="R">
+<description>Resistor 0603 390K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07390KL"/>
+<attribute name="MPN" value="RC0603FR-07390KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="390K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07430KL" prefix="R">
+<description>Resistor 0603 430K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07430KL"/>
+<attribute name="MPN" value="RC0603FR-07430KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="430K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07470KL" prefix="R">
+<description>Resistor 0603 470K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07470KL"/>
+<attribute name="MPN" value="RC0603FR-07470KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="470K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07510KL" prefix="R">
+<description>Resistor 0603 510K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07510KL"/>
+<attribute name="MPN" value="RC0603FR-07510KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="510K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07560KL" prefix="R">
+<description>Resistor 0603 560K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07560KL"/>
+<attribute name="MPN" value="RC0603FR-07560KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="560K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07620KL" prefix="R">
+<description>Resistor 0603 620K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07620KL"/>
+<attribute name="MPN" value="RC0603FR-07620KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="620K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07680KL" prefix="R">
+<description>Resistor 0603 680K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07680KL"/>
+<attribute name="MPN" value="RC0603FR-07680KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="680K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07750KL" prefix="R">
+<description>Resistor 0603 750K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07750KL"/>
+<attribute name="MPN" value="RC0603FR-07750KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="750K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07820KL" prefix="R">
+<description>Resistor 0603 820K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07820KL"/>
+<attribute name="MPN" value="RC0603FR-07820KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="820K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-07910KL" prefix="R">
+<description>Resistor 0603 910K 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-07910KL"/>
+<attribute name="MPN" value="RC0603FR-07910KL"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="910K"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071ML" prefix="R">
+<description>Resistor 0603 1M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071ML"/>
+<attribute name="MPN" value="RC0603FR-071ML"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071M1L" prefix="R">
+<description>Resistor 0603 1.1M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071M1L"/>
+<attribute name="MPN" value="RC0603FR-071M1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.1M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071M2L" prefix="R">
+<description>Resistor 0603 1.2M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071M2L"/>
+<attribute name="MPN" value="RC0603FR-071M2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.2M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071M3L" prefix="R">
+<description>Resistor 0603 1.3M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071M3L"/>
+<attribute name="MPN" value="RC0603FR-071M3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.3M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071M5L" prefix="R">
+<description>Resistor 0603 1.5M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071M5L"/>
+<attribute name="MPN" value="RC0603FR-071M5L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.5M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071M6L" prefix="R">
+<description>Resistor 0603 1.6M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071M6L"/>
+<attribute name="MPN" value="RC0603FR-071M6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.6M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-071M8L" prefix="R">
+<description>Resistor 0603 1.8M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-071M8L"/>
+<attribute name="MPN" value="RC0603FR-071M8L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="1.8M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072ML" prefix="R">
+<description>Resistor 0603 2M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072ML"/>
+<attribute name="MPN" value="RC0603FR-072ML"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072M2L" prefix="R">
+<description>Resistor 0603 2.2M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072M2L"/>
+<attribute name="MPN" value="RC0603FR-072M2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.2M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072M4L" prefix="R">
+<description>Resistor 0603 2.4M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072M4L"/>
+<attribute name="MPN" value="RC0603FR-072M4L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.4M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-072M7L" prefix="R">
+<description>Resistor 0603 2.7M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-072M7L"/>
+<attribute name="MPN" value="RC0603FR-072M7L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="2.7M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073ML" prefix="R">
+<description>Resistor 0603 3M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073ML"/>
+<attribute name="MPN" value="RC0603FR-073ML"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073M3L" prefix="R">
+<description>Resistor 0603 3.3M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073M3L"/>
+<attribute name="MPN" value="RC0603FR-073M3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.3M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073M6L" prefix="R">
+<description>Resistor 0603 3.6M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073M6L"/>
+<attribute name="MPN" value="RC0603FR-073M6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.6M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-073M9L" prefix="R">
+<description>Resistor 0603 3.9M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-073M9L"/>
+<attribute name="MPN" value="RC0603FR-073M9L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="3.9M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-074ML" prefix="R">
+<description>Resistor 0603 4M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-074ML"/>
+<attribute name="MPN" value="RC0603FR-074ML"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-074M3L" prefix="R">
+<description>Resistor 0603 4.3M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-074M3L"/>
+<attribute name="MPN" value="RC0603FR-074M3L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.3M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-074M7L" prefix="R">
+<description>Resistor 0603 4.7M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-074M7L"/>
+<attribute name="MPN" value="RC0603FR-074M7L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="4.7M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-075M1L" prefix="R">
+<description>Resistor 0603 5.1M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-075M1L"/>
+<attribute name="MPN" value="RC0603FR-075M1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="5.1M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-075M6L" prefix="R">
+<description>Resistor 0603 5.6M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-075M6L"/>
+<attribute name="MPN" value="RC0603FR-075M6L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="5.6M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-076M2L" prefix="R">
+<description>Resistor 0603 6.2M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-076M2L"/>
+<attribute name="MPN" value="RC0603FR-076M2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="6.2M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-076M8L" prefix="R">
+<description>Resistor 0603 6.8M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-076M8L"/>
+<attribute name="MPN" value="RC0603FR-076M8L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="6.8M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-077M5L" prefix="R">
+<description>Resistor 0603 7.5M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-077M5L"/>
+<attribute name="MPN" value="RC0603FR-077M5L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="7.5M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-078M2L" prefix="R">
+<description>Resistor 0603 8.2M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-078M2L"/>
+<attribute name="MPN" value="RC0603FR-078M2L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="8.2M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-079M1L" prefix="R">
+<description>Resistor 0603 9.1M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-079M1L"/>
+<attribute name="MPN" value="RC0603FR-079M1L"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="9.1M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset><deviceset name="RC0603FR-0710ML" prefix="R">
+<description>Resistor 0603 10M 1% 100 mW (1/10 W) 75V</description>
+<gates>
+<gate name="G$1" symbol="RESH" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RESC1608X60N">
+<connects>
+<connect gate="G$1" pin="R1" pad="1"/>
+<connect gate="G$1" pin="R2" pad="2"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:14571367/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MOUSER" value="603-RC0603FR-0710ML"/>
+<attribute name="MPN" value="RC0603FR-0710ML"/>
+<attribute name="POWER" value="100 mW (1/10 W)"/>
+<attribute name="TOLERANCE" value="1%"/>
+<attribute name="VALUE" value="10M"/>
+<attribute name="VOLTAGE" value="75V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+<compatibility>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports the association of 3D packages
+with devices in libraries, schematics, and board files. Those 3D
+packages will not be understood (or retained) with this version.
+</note>
+</compatibility>
+</eagle>
