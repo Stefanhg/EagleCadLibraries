@@ -1,0 +1,1 @@
+this tool simply just takes devicesets_resistors.txt and sets the correct prefixes

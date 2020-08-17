@@ -22,7 +22,7 @@ try:
 except:
 	pass # File already removed
 
-for lines in open("devicesets_capacitors.txt", "r"): 
+for lines in open("devicesets_resistors.txt", "r"): 
 	currentValue = lines.rstrip()
 	currentModifValue = currentValue
 	# Converts 1.5k into 1k5 or 1.5R into 1R5
